@@ -6,3 +6,10 @@ private/saml_sp/auth_openidc.conf
 
 参考
 https://tech-lab.sios.jp/archives/19319
+
+
+初回
+./docker/docker-compose up -d
+
+変更があったとき
+./docker/docker-compose up -d --build
