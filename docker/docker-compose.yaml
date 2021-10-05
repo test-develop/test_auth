@@ -13,7 +13,6 @@ networks:
     driver: bridge
 
 services:
-
   public_proxy:
     build: ${public_proxy_build}
     container_name: ${public_proxy_name}
