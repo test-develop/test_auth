@@ -4,5 +4,5 @@ FROM node
 # 本番環境では production
 ENV NODE_ENV=development
 
-# ディレクトリを移動する
-WORKDIR /app
+# 起動後に実行するコマンドを指定(起動確認用）
+CMD npm run dev
